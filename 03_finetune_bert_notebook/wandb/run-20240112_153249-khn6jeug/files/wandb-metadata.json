@@ -1,0 +1,99 @@
+{
+    "os": "Linux-4.14.330-250.540.amzn2.x86_64-x86_64-with-glibc2.35",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-01-12T15:32:50.112929",
+    "startedAt": "2024-01-12T15:32:49.853541",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--learning_rate",
+        "0.0001",
+        "--weight_decay",
+        "0.01",
+        "--num_train_epochs",
+        "5",
+        "--train_subsample_size",
+        "3333",
+        "--model_name",
+        "distilbert-base-uncased"
+    ],
+    "state": "running",
+    "program": "/home/sagemaker-user/sutd-mlops-course-code/03_finetune_bert_notebook/experiment.py",
+    "codePathLocal": "experiment.py",
+    "codePath": "03_finetune_bert_notebook/experiment.py",
+    "git": {
+        "remote": "https://github.com/shanhong-liu/sutd-mlops-course-code.git",
+        "commit": "618eb92831d0b3c2ac1c3a1db0a3e5b69f843919"
+    },
+    "email": "olivialiuliu27@gmail.com",
+    "root": "/home/sagemaker-user/sutd-mlops-course-code",
+    "host": "default",
+    "username": "sagemaker-user",
+    "executable": "/opt/conda/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3100.171375,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3099.512,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3100.13,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3103.758,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3099.635,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3099.985,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3099.135,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3099.275,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3099.941,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 32.0,
+            "used": 0.07576370239257812
+        }
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 30.947834014892578
+    }
+}

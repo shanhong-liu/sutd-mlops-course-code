@@ -1,0 +1,8 @@
+transformers[torch]
+datasets
+wandb==0.16.2 
+seaborn 
+pandas
+matplotlib
+evaluate
+scikit-learn

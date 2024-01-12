@@ -1,0 +1,87 @@
+{
+    "os": "Linux-4.14.330-250.540.amzn2.x86_64-x86_64-with-glibc2.35",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-01-12T14:17:06.219794",
+    "startedAt": "2024-01-12T14:17:05.803934",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "sutd-mlops-course-code/03_finetune_bert_notebook.ipynb",
+    "codePathLocal": null,
+    "root": "/home/sagemaker-user/sutd-mlops-course-code",
+    "git": {
+        "remote": "https://github.com/shanhong-liu/sutd-mlops-course-code.git",
+        "commit": "ddfa212afcd005d0ad84bc5bbcbc4c4e0d81b6f8"
+    },
+    "email": null,
+    "host": "default",
+    "username": "sagemaker-user",
+    "executable": "/opt/conda/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3098.808375,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3096.474,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3099.993,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3099.79,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3093.445,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3100.776,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3100.105,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3099.94,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3099.944,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 32.0,
+            "used": 0.016452789306640625
+        }
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 30.947834014892578
+    }
+}
